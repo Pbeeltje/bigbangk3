@@ -1,0 +1,11 @@
+component_depth: 6
+languages:
+- java
+- javascript
+- html
+
+production:
+    include:
+      - .*/develop/.*
+    exclude:
+      - .*/main/.*
